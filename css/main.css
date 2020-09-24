@@ -647,6 +647,9 @@ img[srcset] {
 .navbar .navbar-brand {
   color: var(--navbar-text-color);
 }
+.navbar .navbar-brand:hover {
+  color: var(--navbar-hover-color);
+}
 .navbar .navbar-toggler .animated-icon span {
   background-color: var(--navbar-text-color);
 }
@@ -1753,7 +1756,7 @@ post-content strong {
 .books .book-card {
   padding: 5px;
   width: 210px;
-  height: 371px;
+  height: 368px;
   margin: 1% auto;
   background-color: rgba(255,255,255,0);
   border: 0;
