@@ -106,7 +106,7 @@
   function setBannerImg(schema) {
     // 切换背景图
     var backgroundElement = document.getElementById('background');
-    if (backgroundElement) {
+    if (backgroundElement && backgroundElement.getAttribute('style').match('.+default_.+')) {
       background = 'default_' + schema;
       backgroundElement.setAttribute('style', 'background: url("/img/' + background + '.png") center center / cover no-repeat; transform: translate3d(0px, 0px, 0px);');
     }
