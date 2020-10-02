@@ -47,77 +47,84 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>岑忠满的随笔</strong>&nbsp;</a>
+      href="/">&nbsp;<strong>岑忠满的随笔</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
       <div class="animated-icon"><span></span><span></span><span></span></div>
     </button>
 
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto text-center">
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/">
-                <i class="iconfont icon-home-fill"></i>
-                主页
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/99-Others/about/">
-                <i class="iconfont icon-user-fill"></i>
-                关于
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/books/">
-                <i class="iconfont icon-books"></i>
-                书籍
-              </a>
-            </li>
-          
+        <div class="search">
+          <select class="searchEngine" id="searchEngine">
+            <option value="https://www.baidu.com/s?wd=">Baidu</option>
+            <option value="https://www.google.com/search?q=">Google</option>
+          </select>
+          <input type="text" class="input ypoctonod" id="input" name="word" size="30" placeholder="" autocomplete="off">
+        </div>
         
         
-          <li class="nav-item" id="search-btn">
-            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
-                class="iconfont icon-search"></i>&nbsp;</a>
-          </li>
         
         
-          <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" href="javascript:">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
-          </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/">
+            <i class="iconfont icon-home-fill"></i>
+            主页
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/categories/">
+            <i class="iconfont icon-category-fill"></i>
+            分类
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/99-Others/about/">
+            <i class="iconfont icon-user-fill"></i>
+            关于
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/books/">
+            <i class="iconfont icon-books"></i>
+            书籍
+          </a>
+        </li>
+        
+        
+        
+        <li class="nav-item" id="search-btn">
+          <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+              class="iconfont icon-search"></i>&nbsp;</a>
+        </li>
+        
+        
+        <li class="nav-item" id="color-toggle-btn">
+          <a class="nav-link" href="javascript:">&nbsp;<i class="iconfont icon-dark"
+              id="color-toggle-icon"></i>&nbsp;</a>
+        </li>
         
       </ul>
     </div>
@@ -170,6 +177,12 @@
       
       <p class="h5">2020</p>
      -->
+    <a href="/01-Java/03-Spring/03-SpringBoot/01-SpringBoot%E5%AE%9E%E7%8E%B0RestAPI/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">01-SpringBoot实现RestAPI</span>
+      <time style="float: right;">2020-08-24</time>
+    </a>
+  
+    <!--  -->
     <a href="/01-Java/03-Spring/05-SpringData/01-SpringData%E5%85%A5%E9%97%A8/" class="list-group-item list-group-item-action">
       <span class="archive-post-title">01-SpringData入门</span>
       <time style="float: right;">2020-08-24</time>
@@ -188,32 +201,20 @@
     </a>
   
     <!--  -->
+    <a href="/01-Java/03-Spring/03-SpringBoot/02-springBoot%E7%9A%84%E7%83%AD%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">02-springBoot的热部署问题</span>
+      <time style="float: right;">2020-08-24</time>
+    </a>
+  
+    <!--  -->
     <a href="/01-Java/03-Spring/05-SpringData/03-SpringData-Mysql(JPA)/" class="list-group-item list-group-item-action">
       <span class="archive-post-title">03-SpringData-Mysql(JPA)</span>
       <time style="float: right;">2020-08-24</time>
     </a>
   
     <!--  -->
-    <a href="/01-Java/03-Spring/05-SpringData/04-SpringData-JPA%E6%96%B9%E6%B3%95%E8%A7%84%E8%8C%83/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">04-SpringData-JPA方法规范</span>
-      <time style="float: right;">2020-08-24</time>
-    </a>
-  
-    <!--  -->
-    <a href="/01-Java/03-Spring/05-SpringData/05-SpringData-ES/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">05-SpringData-ES</span>
-      <time style="float: right;">2020-08-24</time>
-    </a>
-  
-    <!--  -->
-    <a href="/01-Java/03-Spring/02-SpringMVC/05-Spring%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B--maven%E7%89%88%E6%9C%AC/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">05-Spring入门案例--maven版本</span>
-      <time style="float: right;">2020-08-24</time>
-    </a>
-  
-    <!--  -->
-    <a href="/01-Java/03-Spring/05-SpringData/07-SpringData-MutualModel/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">07-SpringData-MutualModel</span>
+    <a href="/01-Java/03-Spring/03-SpringBoot/03-%E5%B0%86%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E7%9A%84%E5%B1%9E%E6%80%A7%E9%85%8D%E7%BD%AE%E6%98%A0%E5%B0%84%E5%88%B0%E5%AE%9E%E4%BD%93%E7%B1%BB/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">03-将资源文件的属性配置映射到实体类</span>
       <time style="float: right;">2020-08-24</time>
     </a>
   
@@ -226,6 +227,12 @@
     <!--  -->
     <a href="/01-Java/03-Spring/01-SpringFramwork/08-%E8%B7%A8%E5%9F%9F%E8%AF%B7%E6%B1%82/" class="list-group-item list-group-item-action">
       <span class="archive-post-title">08-跨域请求</span>
+      <time style="float: right;">2020-08-24</time>
+    </a>
+  
+    <!--  -->
+    <a href="/01-Java/03-Spring/01-SpringFramwork/09-AntMatchers/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">09-AntMatchers</span>
       <time style="float: right;">2020-08-24</time>
     </a>
   
